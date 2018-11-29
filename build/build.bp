@@ -1,0 +1,4 @@
+* comment
+^ library/path
++ source/path
+= output.file
