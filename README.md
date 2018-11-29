@@ -12,8 +12,11 @@ Yes, this code is only on github because some of my other programs *actually use
 ## What it does
 Say you had a codebase has a couple files and looks like this
 > randomFileNumber1one.js
+
 > randomFileNumber2one.js
+
 > folder/randomFileNumber3two.js
+
 > index.html
 
 ## Usage
@@ -31,8 +34,11 @@ Every instruction comes as a token pair, a **symbol** and the *instruction param
 
 Here is a list of the instructions
 >**\*** *comment*  ( A comment. Not really an instruction, just useful. )
+
 >**^** *library/path* ( A source file path using LibraryPath as root. )
+
 >**\+** *source/path* ( A source file using SourceFilePath as root. )
+
 >**=** *output.file* ( File that everything will be mashed into. )
 
 Now, all that being said- I have little idea as to how to configure this because
