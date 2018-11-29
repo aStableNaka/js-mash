@@ -1,8 +1,0 @@
-Legacy jsbuilder 0.0.1
-
-	node build.js [cwd [libraryPath]]
-	
-Default cwd is directory of wherever build.js was called
-Default libraryPath is [...]/Projects/lib/javascript/jsbuilder0.0.1
-
-No longer supported.
